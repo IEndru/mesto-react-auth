@@ -1,0 +1,14 @@
+.elements__heart {
+  margin: 0;
+  padding: 0;
+  width: 22px;
+  height: 19px;
+  background: transparent url(../../../images/heart.svg);
+  box-sizing: border-box;
+  background-size:contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-self: end;
+  border: none;
+  cursor: pointer;
+}

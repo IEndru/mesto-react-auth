@@ -1,0 +1,22 @@
+.header__logo{
+  display: block;
+  margin-bottom: 40px;
+  width:142px;
+  height: 33px;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media screen and (max-width: 767px) {
+  .header__logo {
+    margin-bottom: 30.6px;
+    width:103.74px;
+    height: 24.4px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .header__logo {
+    margin-left: 27px;
+  }
+}

@@ -1,0 +1,4 @@
+.popup__input-error_active {
+  /*visibility: hidden;*/
+  display: none;
+}
