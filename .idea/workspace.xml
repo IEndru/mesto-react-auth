@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08c4a44f-d37a-4627-8d71-bc07bbee1494" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Card.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ImagePopup.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PopupWithForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/elements/__img/elements__img.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/elements/__img/elements__img.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PopupWithForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PopupWithForm.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +53,7 @@
       <updated>1694724714752</updated>
       <workItem from="1694724720045" duration="10000" />
       <workItem from="1694724775372" duration="39688000" />
-      <workItem from="1694955532366" duration="17019000" />
+      <workItem from="1694955532366" duration="24414000" />
     </task>
     <servers />
   </component>
