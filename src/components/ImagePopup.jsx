@@ -2,7 +2,7 @@ import React from 'react';
 
 
 const ImagePopup = ({ card, onClose }) => {
-    console.log(card);
+    //console.log(card);
     const popupClassNameOpenImage = `popup popup_type_image popup_type_darker ${card.link ? "popup_opened" : ""}`;
     return (
         <section className={popupClassNameOpenImage}>
