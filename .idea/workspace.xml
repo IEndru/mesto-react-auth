@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08c4a44f-d37a-4627-8d71-bc07bbee1494" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/AddPlacePopup.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/EditAvatarPopup.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/EditProfilePopup.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contexts/CurrentUserContext.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ImagePopup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ImagePopup.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PopupWithForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PopupWithForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AddPlacePopup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddPlacePopup.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/EditProfilePopup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EditProfilePopup.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +14,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -60,7 +60,8 @@
       <workItem from="1694724720045" duration="10000" />
       <workItem from="1694724775372" duration="39688000" />
       <workItem from="1694955532366" duration="25712000" />
-      <workItem from="1695664286544" duration="52044000" />
+      <workItem from="1695664286544" duration="53089000" />
+      <workItem from="1696348781823" duration="6091000" />
     </task>
     <servers />
   </component>

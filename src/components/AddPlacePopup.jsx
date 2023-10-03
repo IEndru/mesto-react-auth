@@ -1,26 +1,29 @@
 import React from 'react';
 import PopupWithForm from "./PopupWithForm";
+import { useForm } from '../hooks/useForm';
+
 
 function AddPlacePopup({isOpen, onClose, onAddPlace}) {
-    const [title, setTitle] = React.useState('');
-    const [link, setLink] = React.useState('');
+    const { values, handleChange, setValues } = useForm({
+        name: '',
+        link: '',
+    });
+
+    React.useEffect(() => {
+        if (isOpen) {
+            setValues({
+                name: '',
+                link: '',
+            });
+        }
+    }, [isOpen]);
 
     const handleSubmit = (event) => {
         event.preventDefault();
         onAddPlace({
-            name: title,
-            link: link
+            name: values.name,
+            link: values.link
         });
-        setTitle('');
-        setLink('');
-    };
-
-    const handleTitleChange = (event) => {
-        setTitle(event.target.value);
-    };
-
-    const handleLinkChange = (event) => {
-        setLink(event.target.value);
     };
 
     return (
@@ -34,8 +37,8 @@ function AddPlacePopup({isOpen, onClose, onAddPlace}) {
                        minLength="2"
                        maxLength="30"
                        required
-                       onChange={handleTitleChange}
-                       value={title}
+                       onChange={handleChange}
+                       value={values.name}
                        placeholder="Название"/>
                 <span className="popup__input-error nameplace-input-error"></span>
             </label>
@@ -45,8 +48,8 @@ function AddPlacePopup({isOpen, onClose, onAddPlace}) {
                        className="popup__input popup__input_type_link"
                        name="link"
                        required
-                       value={link}
-                       onChange={handleLinkChange}
+                       onChange={handleChange}
+                       value={values.link}
                        placeholder="Ссылка на картинку"/>
                 <span className="popup__input-error urlPlace-input-error"></span>
             </label>
@@ -55,3 +58,10 @@ function AddPlacePopup({isOpen, onClose, onAddPlace}) {
 }
 
 export default AddPlacePopup;
+
+
+
+
+
+
+
