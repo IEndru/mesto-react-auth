@@ -1,0 +1,9 @@
+.header__block-link {
+    display: flex;
+    margin: 6px 0 0;
+    gap: 24px;
+    padding: 0;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+}

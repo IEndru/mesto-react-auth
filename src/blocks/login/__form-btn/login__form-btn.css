@@ -1,0 +1,16 @@
+.login__form-btn {
+    border-radius: 2px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.login__form-btn:hover {
+    opacity: 0.85;
+    cursor: pointer;
+}

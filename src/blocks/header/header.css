@@ -1,6 +1,5 @@
 .header {
   box-sizing: border-box;
-  display: block;
   max-width: 880px;
   margin: 0 auto 40px;
   padding-top: 45px;
@@ -12,6 +11,8 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   border-bottom: 1px solid rgba(84,84,84, 0.7);
+  display: flex;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 767px) {

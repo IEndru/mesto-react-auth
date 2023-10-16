@@ -1,0 +1,16 @@
+.login__help {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    text-align: center;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 15px;
+}
+
+.login__help:hover {
+    opacity: 0.6;
+}
+

@@ -1,0 +1,11 @@
+.header__sign-exit{
+    display: block;
+    height: 22px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    color: #A9A9A9;
+    background: transparent;
+    text-align: right;
+    cursor: pointer;
+}

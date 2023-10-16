@@ -2,7 +2,7 @@ import React from 'react';
 import Card from "./Card";
 import {CurrentUserContext} from "../contexts/CurrentUserContext";
 
-const Main = ({ onEditProfile, onAddPlace, onEditAvatar, onCardClick, cards,onCardDeleteClick, onCardLike,onCardDelete}) => {
+const Main = ({ onEditProfile, onAddPlace, onEditAvatar, onCardClick, cards, onCardLike,onCardDelete}) => {
     const currentUser = React.useContext(CurrentUserContext);
     const {name,about,avatar}=currentUser;
 

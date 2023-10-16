@@ -1,11 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="08c4a44f-d37a-4627-8d71-bc07bbee1494" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hooks/useForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/header/__block-link/header__block-link.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/header/__email/header__email.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/header/__link/header__link.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/header/__sign-exit/header__sign-exit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/login/__form-btn/login__form-btn.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/login/__form-input/login__form-input.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/login/__form/login__form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/login/__help/login__help.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/login/__title/login__title.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/login/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/popup/__icon/popup__icon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/popup/__title-forSign/popup__title-forSign.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/InfoTooltip.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Login.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProtectedRoute.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Register.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/untils/auth.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AddPlacePopup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddPlacePopup.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/EditProfilePopup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EditProfilePopup.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/header/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +44,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -34,18 +60,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\PhpStorm 2022.2.5\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\PhpStorm 2022.2.5\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\mesto-react-auth\src\blocks\login\__title" />
       <recent name="C:\Users\Администратор\PhpstormProjects\dev\mesto-react\src\components" />
     </key>
   </component>
@@ -62,6 +94,7 @@
       <workItem from="1694955532366" duration="25712000" />
       <workItem from="1695664286544" duration="53089000" />
       <workItem from="1696348781823" duration="6091000" />
+      <workItem from="1696880558521" duration="89469000" />
     </task>
     <servers />
   </component>
